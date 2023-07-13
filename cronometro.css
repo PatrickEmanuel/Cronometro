@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*moldar todos os elementos em forma de box*/
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background: #0276ad;
+    color: #fff;
+    display: flex; /*formatar a caixa para ficar livre na tela*/
+    align-items: center;/*alinhameto vertical na tela */
+    justify-content: center;/*alinhameto horizontal na tela */
+    text-align: center;
+    min-height: 100vh;/*tamanho minimo da tela, ocupará 100% da tela*/
+}
+h1{
+    font-size: 70px;
+    letter-spacing: 5px;
+    padding: 30px;
+    background: #014c7e;/*cor do fundo do titulo*/
+    border-radius: 20px;
+    font-weight: 700;/*negrito*/
+    margin: 0 auto 30px;
+}
+.box {
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    background: #014c7e;
+    font-size: 100px;
+    border-radius: 20px;
+    margin: 0 auto 30px;
+}
+button{
+    border: 0;
+    padding: 10px 30px;
+    background: #014c7e;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+button:hover{
+    background: #0da1e8;
+    color: #042b46;
+    transition: 0.5s ease;
+}
+button:focus{
+    background: #3de1ec;
+    color: #2d72a3;
+    
+}
